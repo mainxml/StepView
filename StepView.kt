@@ -47,12 +47,9 @@ class StepView @JvmOverloads constructor(
     }
 
     /*init {
-        addStep("提交申请")
-        addStep("审核中")
-        addStep("提交物流信息")
-        addStep("收货审核中")
-        addStep("换货成功")
-        currentStep = 2
+        setBackgroundColor("#FF000000".toColorInt())
+        setList(listOf("提交申请", "审核中", "提交物流信息", "收货审核中", "换货成功"))
+        stepIndex = 2
     }*/
 
     //region 测量绘制
